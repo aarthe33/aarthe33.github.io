@@ -27,7 +27,8 @@ hr{
 .heading{
   
     background-color: #ff9c71;
-    
+    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
     padding: 5%;
     text-align:center;
     background-repeat: no-repeat;
@@ -159,6 +160,8 @@ p{
         position: relative;
         padding:30px;
         text-align:center;
+        -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
     }
     
     h1{
