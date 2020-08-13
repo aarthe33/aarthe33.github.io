@@ -12,6 +12,11 @@ h1{
     color: white;
 }
 
+hr{
+    border-top: 1px solid #ff9c71 ;
+    margin-top: 60px;
+}
+
 .header-content{
     padding:5%;
     font-family:'Baloo Tamma 2', cursive;
@@ -46,7 +51,7 @@ h1{
 
 .how{
     
-    padding: 5%;
+    padding: 2% 5% 5% 5%;
 }
 
 /* .carousel-control-prev-icon,
@@ -95,7 +100,6 @@ p{
 }
 
 #slide-show{
-    
     text-align:center;
 }
 
@@ -120,14 +124,14 @@ p{
 /* habit */
 
 .habits{
-    padding:5%;
+    padding: 2% 5% 5% 5%;
 }
 
 /* conclusion */
 
 .conclusion{
     
-    padding: 5%;
+    padding: 2% 5% 5% 5%;
 }
 
 /* comment */
@@ -150,6 +154,9 @@ p{
 @media (max-width: 1000px){
     
     .heading{
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
         padding:30px;
         text-align:center;
     }
